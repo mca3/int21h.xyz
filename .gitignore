@@ -1,2 +1,4 @@
 *.html
+/draft
 /out
+/src/articles.m4

@@ -8,8 +8,7 @@ _H2(`Quick links')
 _LIST(
 `_LINK(`About this website', _PAGE(`about'))',
 `_LINK(`Contact', _PAGE(`contact'))',
-`_LINK(`Blog', _PAGE(`blog/index'))'
-)
+`_LINK(`Blog', _PAGE(`blog/index'))')
 
 There isn't a lot of content on this site, and that's because it's very new. Check in on it every now and then!
 
@@ -25,7 +24,6 @@ _LIST(
 `Atom/RSS web reader, in Go',
 `OPDS server, in Go',
 `An (almost) mesh network based on WireGuard, in Go',
-`Likely other stuff. I work on projects as they come to me.'
-)
+`Likely other stuff. I work on projects as they come to me.')
 
 I was given several laptops so I am in the process of migrating my setup to something more capable, something that isn't a corebooted Chromebook with 2 GB of RAM and 16 GB of eMMC.

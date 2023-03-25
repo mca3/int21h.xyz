@@ -19,6 +19,6 @@ m4_divert(0)m4_dnl')m4_dnl
 m4_define(`_LINK', `<a href="$2">$1</a>')m4_dnl
 m4_define(`_PAGE', `/$1.html')m4_dnl
 m4_define(`_LIST', `<ul>m4_dnl
-_FOREACH(`DATA', `m4_ifelse(`DATA',,,`
-	<li>DATA</li>')', $@)
+_FOREACH(`DATA', `
+	<li>DATA</li>', $@)
 </ul>')m4_dnl

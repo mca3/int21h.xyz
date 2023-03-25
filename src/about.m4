@@ -9,8 +9,7 @@ _LIST(
 `Programming, and probably a lot of it Go related',
 `Guides on whatever I feel like',
 `I would not be surprised if a rant shows up here',
-`And more!'
-)
+`And more!')
 
 All content on this site is under a CC-BY 4.0 license. This just means that if you lift anything from my website, you have to link back here, and if you change anything you must indicate that you have done so. There are no additional restrictions.
 
@@ -20,8 +19,7 @@ _LIST(
 `m4',
 `awk',
 `make',
-`and the usual standard UNIX utilities'
-)
+`and the usual standard UNIX utilities')
 
 Using this toolset I have defined myself a small markup languages that extends m4 which allows me to generate HTML documents with room even for alternative markup languages. It can very easily map nearly 1:1 to Markdown or _LINK(`Gemini', `https://gemini.circumlunar.space/')'s Gemtext.
 
