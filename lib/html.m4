@@ -7,7 +7,7 @@ m4_define(`_CODE', `<code>$1</code>')m4_dnl
 m4_define(`_PRELUDE', `<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>m4_ifelse($1,,,`$1 | ')_DOMAIN</title>
+	<title>m4_ifelse($1,,,`$1 | ')int21h.xyz</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="/style.css">
 </head>
@@ -22,3 +22,5 @@ m4_define(`_LIST', `<ul>m4_dnl
 _FOREACH(`DATA', `
 	<li>DATA</li>', $@)
 </ul>')m4_dnl
+m4_define(`_LLI', `_LINK($@)')m4_dnl
+m4_define(`_LLIST', `_LIST($@)')m4_dnl

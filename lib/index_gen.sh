@@ -6,7 +6,7 @@ _H1(`Blog index')
 
 This is a list of all blog entries I've ever written ordered newest to oldest.
 
-_LIST(
+_LLIST(
 EOF
 
 _=""
@@ -15,7 +15,7 @@ while IFS="	" read -r date title file; do
 	file="${file#*/}"
 	file="${file%.*}"
 
-	printf "%s\`[%s] _LINK(\`%s', _PAGE(\`%s'))'" "$_" "$date" "$title" "$file"
+	printf "%s\`_LLI(\`[%s] %s', \`_PAGE(\`%s')')'" "$_" "$date" "$title" "$file"
 	_=",
 "
 done

@@ -1,14 +1,14 @@
 _PRELUDE()
-_H1(`Welcome to _DOMAIN()!')
+_H1(`Welcome to int21h.xyz!')
 
 I am _I(`mca'), a student of Nova Scotia and a hobbyist developer. I work mostly in Go but am knowledgable about C and Lua and some other languages. I listen to a lot of music and daily drive Linux among other things.
 
 _H2(`Quick links')
 
-_LIST(
-`_LINK(`About this website', _PAGE(`about'))',
-`_LINK(`Contact', _PAGE(`contact'))',
-`_LINK(`Blog', _PAGE(`blog/index'))')
+_LLIST(
+`_LLI(`About this website', _PAGE(`about'))',
+`_LLI(`Contact', _PAGE(`contact'))',
+`_LLI(`Blog', _PAGE(`blog/index'))')
 
 There isn't a lot of content on this site, and that's because it's very new. Check in on it every now and then!
 

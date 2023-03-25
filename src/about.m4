@@ -1,7 +1,7 @@
 _PRELUDE(`About')
-_H1(`About _DOMAIN()')
+_H1(`About int21h.xyz')
 
-_DOMAIN() is a statically generated site using the finest UNIX tools and hacks. The name comes from interrupt 21h which allows access to the MS-DOS API, and the name is because I couldn't get something like mca.xyz.
+int21h.xyz is a statically generated site using the finest UNIX tools and hacks. The name comes from interrupt 21h which allows access to the MS-DOS API, and the name is because I couldn't get something like mca.xyz.
 
 List of topics you may see on this site, which is still very well in its infancy:
 
