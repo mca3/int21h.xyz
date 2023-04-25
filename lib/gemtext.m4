@@ -18,3 +18,6 @@ m4_define(`_LIST', `_FOREACH(`DATA', `* DATA
 m4_define(`_LLI', `$2	$1')m4_dnl
 m4_define(`_LLIST', `_FOREACH(`DATA', `=> DATA
 ', $@)m4_dnl')m4_dnl
+m4_define(`_ATQUOTE', `> $1
+>
+> — $2')m4_dnl

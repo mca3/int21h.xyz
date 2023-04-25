@@ -9,6 +9,7 @@ m4_define(`_PRELUDE', `<!DOCTYPE html>
 <head>
 	<title>m4_ifelse($1,,,`$1 | ')int21h.xyz</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
@@ -24,3 +25,4 @@ _FOREACH(`DATA', `
 </ul>')m4_dnl
 m4_define(`_LLI', `_LINK($@)')m4_dnl
 m4_define(`_LLIST', `_LIST($@)')m4_dnl
+m4_define(`_ATQUOTE', `<blockquote>$1</blockquote><figcation>— $2</figcaption>')m4_dnl
