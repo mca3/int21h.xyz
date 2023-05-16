@@ -15,6 +15,6 @@ There isn't a lot of content on this site, and that's because it's very new. Che
 
 _H2(`Current endeavors')
 
-Last updated on 2023-04-25.
+Last updated on 2023-05-16.
 
-Soon gone fishin'.
+Gone fishin'.
